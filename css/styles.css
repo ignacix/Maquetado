@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+html{
+    background-color: rgb(51, 51, 51);
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+    padding:0 10px 10px 10px;
+    background-color: #052333;
+}
+
+header{
+    padding: 20px;
+}
+h1{
+    color: #ceddeb;
+}
+span{
+    color:  #136dc2;
+}
+h1, nav{
+    display: inline-block;
+}
+ul li{
+    display: inline;
+    margin-left: 60px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ceddeb;
+    font-size:large;
+}
+nav{
+    width: 65%;
+    text-align: end;
+}
+#home{
+    color:  #2d5364 ;
+}
+/*banner*/
+
+main{
+    padding: 20px 20px 0 20px;
+    background-color: #ceddeb;
+}
+img{
+    width: 100%;
+}
+/*cards*/
+#cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+#cards img{
+    width: 40px;
+}
+#cards div div{
+    display: flex;
+    align-items: center;
+
+}
+
+.card{
+    width: 28%;
+    height: 210px;
+    padding: 15px;
+    background-color:  #135ca5 ;
+
+}
+.card h2{
+    margin-left: 5px;
+    color: #ceddeb;
+}
+.card p{
+    margin: 5px 0;
+    padding: 5px;
+    height: 100px;
+    font-size: small;
+    color: #ceddeb;
+}
+.card button{
+    padding: 15px 40px;
+    background: linear-gradient(to bottom, #5993c5 0%,#4b91d3 50%,#307fd4 51%,#1e69de 100%);
+    border: none;
+    border-radius: 5px;
+    color: #ceddeb;
+}
+/*preFooter*/
+
+#preFooter{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+
+#preFooter div{
+    width: 31%;
+}
+
+#preFooter div h2{
+    font-size:larger;
+}
+#preFooter img{
+    width: 100%;
+}
+
+#preFooter div p{
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+#preFooter div div{
+    padding-top: 25px;        
+}
+#preFooter div a{
+    text-decoration: none;
+    color: #3b6b81;
+}
+
+
+#testimonial div{
+    width: 100%;
+}
+
+.bocadillo-cuadrado {
+    position: relative;
+    height: 90px;
+    width: 300px;
+    margin-bottom: 20px;
+    background:#b3cae0;
+}
+.bocadillo-cuadrado:before {
+    border: 25px solid #b3cae0;
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    bottom: -35px;
+    left: calc(50% - 130px)
+}
+
+#testimonial div p{
+    padding: 0 20px;
+    font-style: italic;
+    font-size: large;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: #b3cae0;
+    padding: 20px 0;
+    margin-top: 2px;
+    
+    
+}
+footer nav ul{
+    padding-left: 10px;
+}
+footer nav ul li{
+    margin: 10px;
+}
+
+footer nav ul li a{
+    font-size: small;
+}
+
+#homeFooter{
+    color: #6999c5;
+}
+
+footer nav ul li a{
+    color: #136dc2;
+}
